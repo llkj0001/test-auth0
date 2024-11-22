@@ -1,4 +1,4 @@
-{
+auth0.openai.com{
   "rewrites": [
     {
       "source": "/ip", 
@@ -10,7 +10,7 @@
     },
     {
       "source": "/:path*", 
-      "destination": "https://chatgpt.com/:path*"
+      "destination": "https://auth0.openai.com/:path*"
     }
   ]
 }
