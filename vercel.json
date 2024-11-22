@@ -1,4 +1,4 @@
-auth0.openai.com{
+{
   "rewrites": [
     {
       "source": "/ip", 
