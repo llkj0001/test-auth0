@@ -9,7 +9,7 @@
       "destination": "https://auth0.openai.com/:path*"
     },
     {
-      "source": "/login_challenge*",
+      "source": "/:login_challenge*",
       "destination": "https://auth.openai.com/:path*"
     }
   ]
