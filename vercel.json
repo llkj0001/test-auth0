@@ -9,8 +9,8 @@
       "destination": "https://auth0.openai.com/:path*"
     },
     {
-      "source": "/login_challenge/:path*", 
-      "destination": "https://auth.openai.com/:path*"
+      "source": "/login_challenge",
+      "destination": "https://auth.openai.com/login_challenge"
     }
   ]
 }
